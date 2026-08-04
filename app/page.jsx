@@ -3,9 +3,8 @@ export default function Home() {
     <main
       style={{
         minHeight: "100vh",
-        background:
-          "linear-gradient(135deg,#0d3b26 0%, #111111 50%, #6b1220 100%)",
-        color: "white",
+        background: "linear-gradient(135deg,#0d3b26,#6b0f1a)",
+        color: "#fff",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -17,70 +16,29 @@ export default function Home() {
       <div>
         <h1
           style={{
-            fontSize: "64px",
+            fontSize: "56px",
             marginBottom: "10px",
-            color: "#d4af37",
           }}
         >
           FLUMI FÚTBOL CLUB
         </h1>
 
-        <p
+        <h2
           style={{
-            fontSize: "22px",
-            maxWidth: "800px",
-            margin: "20px auto",
+            color: "#d4af37",
+            marginBottom: "25px",
           }}
         >
-          Más que un equipo, una familia.
-          <br />
-          Más que una camiseta, un orgullo.
-        </p>
+          Pasión • Compromiso • Gloria
+        </h2>
 
-        <div style={{ marginTop: "40px" }}>
-          <a
-            href="https://www.instagram.com/flumifutbol"
-            target="_blank"
-            style={{
-              background: "#ffffff",
-              color: "#111",
-              padding: "15px 30px",
-              margin: "10px",
-              borderRadius: "10px",
-              textDecoration: "none",
-              fontWeight: "bold",
-            }}
-          >
-            Instagram
-          </a>
-
-          <a
-            href="https://www.tiktok.com/@flumi.futbol"
-            target="_blank"
-            style={{
-              background: "#d4af37",
-              color: "#111",
-              padding: "15px 30px",
-              margin: "10px",
-              borderRadius: "10px",
-              textDecoration: "none",
-              fontWeight: "bold",
-            }}
-          >
-            TikTok
-          </a>
-        </div>
-
-        <p style={{ marginTop: "60px", opacity: 0.8 }}>
-          Entrenamientos
-          <br />
-          Miércoles y Viernes
-          <br />
-          22:00 a 23:30 hs
-          <br />
-          Pampa Fútbol
+        <p style={{ fontSize: "20px", maxWidth: "700px" }}>
+          Bienvenidos al sitio oficial de Flumi Fútbol Club.
+          Actualmente nos encontramos en pretemporada preparando una nueva
+          temporada con el objetivo de competir al máximo nivel.
         </p>
       </div>
     </main>
   );
 }
+          
